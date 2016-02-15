@@ -80,7 +80,7 @@ while jj<5:
 			f.close()
 			inde = inde + 1
 			chtest[jj] = chtest[jj] + 1
-	print (Fore.WHITE + "parsing " + str(ch[jj])) + (Fore.GREEN + "  [Success]  ")
+	print (Fore.WHITE + "parsing " + str(ch[jj])) + (Fore.GREEN + "  [Success] " + Fore.WHITE)
 	jj= jj + 1
 pathe = '/GoCF/sukeesh.txt'
 f = open(home+pathe,'w')
